@@ -4,7 +4,7 @@ import { Button, Description, FieldError, Form, Input, Label, TextField } from "
 import { useRouter } from "next/navigation";
 const LoginPage = () => {
     const router = useRouter();
-    const { data: session } = authClient.useSession();
+
 
     const onSubmit = async (e) => {
         e.preventDefault();
